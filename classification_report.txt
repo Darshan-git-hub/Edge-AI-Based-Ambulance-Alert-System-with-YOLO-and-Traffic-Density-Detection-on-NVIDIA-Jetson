@@ -1,0 +1,11 @@
+Smart Model  |  20260326_104029
+
+              precision    recall  f1-score   support
+
+      Sparse       0.98      0.93      0.96      1048
+    Moderate       0.86      0.92      0.89       626
+       Dense       0.80      0.84      0.82       162
+
+    accuracy                           0.92      1836
+   macro avg       0.88      0.90      0.89      1836
+weighted avg       0.92      0.92      0.92      1836

@@ -1,0 +1,39 @@
+=================================================================
+  smart_model_v2  |  COMPLETE PERFORMANCE METRICS
+=================================================================
+  Timestamp          : 20260326_124133
+  Total test samples : 1836
+
+  OVERALL METRICS
+  --------------------------------------------------
+  Accuracy           : 92.43%
+  F1 Macro           : 0.8962
+  F1 Weighted        : 0.9248
+  Precision Macro    : 0.9054
+  Recall Macro       : 0.8902
+  AUC-ROC Macro      : 0.9860
+  Avg Inference Time : 6.53 ms
+  Throughput         : 153.1 FPS
+
+  PER-CLASS  TP / TN / FP / FN
+  --------------------------------------------------
+  Class            TP     TN     FP     FN     Sens    Spec     PPV     NPV      AUC
+  --------------------------------------------------------------------------------
+  Sparse          980    766     22     68   0.9351  0.9721  0.9780  0.9185   0.9920
+  Moderate        588   1110    100     38   0.9393  0.9174  0.8547  0.9669   0.9771
+  Dense           129   1657     17     33   0.7963  0.9898  0.8836  0.9805   0.9880
+
+  CONFUSION MATRIX
+  --------------------------------------------------
+  Actual/Pred      Sparse   Moderate      Dense
+  Sparse              980         67          1
+  Moderate             22        588         16
+  Dense                 0         33        129
+
+  ROC AUC SCORES
+  --------------------------------------------------
+  Sparse       AUC = 0.9920
+  Moderate     AUC = 0.9771
+  Dense        AUC = 0.9880
+  Macro avg    AUC = 0.9860
+=================================================================

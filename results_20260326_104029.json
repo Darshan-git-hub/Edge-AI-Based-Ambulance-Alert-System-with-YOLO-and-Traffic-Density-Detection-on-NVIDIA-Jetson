@@ -1,0 +1,37 @@
+{
+    "timestamp": "20260326_104029",
+    "model": "smart_density_model",
+    "improvements": [
+        "area-based density labeling",
+        "focal loss (gamma=2)",
+        "class weights",
+        "hard example mining (weighted sampler)",
+        "noisy sample removal"
+    ],
+    "accuracy": 0.9210239651416122,
+    "f1_macro": 0.8892938161716538,
+    "f1_weighted": 0.9221379922691462,
+    "precision_macro": 0.8820285743248718,
+    "recall_macro": 0.897931424570058,
+    "best_val_f1_macro": 0.8962456891959064,
+    "per_class": {
+        "Sparse": {
+            "precision": 0.9829317269076305,
+            "recall": 0.9341603053435115,
+            "f1": 0.9579256360078278,
+            "samples": 1048
+        },
+        "Moderate": {
+            "precision": 0.8584202682563339,
+            "recall": 0.9201277955271565,
+            "f1": 0.8882035466461063,
+            "samples": 626
+        },
+        "Dense": {
+            "precision": 0.8047337278106509,
+            "recall": 0.8395061728395061,
+            "f1": 0.8217522658610272,
+            "samples": 162
+        }
+    }
+}
